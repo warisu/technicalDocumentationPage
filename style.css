@@ -1,0 +1,62 @@
+html,
+body {
+  font-family: Times New Roman, sans-serif;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  min-width: 290px;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 320px;
+  padding: 20px;
+}
+nav .nav-link {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  /* this increases the content */
+  padding: 10px 15px;
+}
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  border-right: solid #c0c0c0;
+  height: 100%;
+}
+header {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+span {
+  display: block;
+}
+.codes {
+  background-color: rgba(211, 211, 211, 15%);
+  width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+}
+.head {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  header {
+    color: #008080;
+  }
+}
+#navbar ul {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 88%;
+  padding: 0;
+}
+#navbar li {
+  list-style: none;
+  position: relative;
+  border-top: 1px solid;
+  width: 100%;
+}
